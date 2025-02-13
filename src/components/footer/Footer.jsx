@@ -4,9 +4,9 @@ import { FacebookOutlined, Instagram, Twitter } from "@mui/icons-material"
 
 const Footer = () => {
     return (
-        <footer className="Container flex justify-between gap-20">
-            <div className="w-[330px] flex flex-col gap-4 items-start">
-                <img src={bigLogo} alt="my-ride-logo" />
+        <footer className="Container py-10 grid lg:grid-cols-2 md:grid-cols-1 lg:justify-between sm:grid-cols-1 gap-5">
+            <div className="lg:w-[330px] md:w-full flex flex-col gap-4 lg:items-start items-center sm:w-full">
+                <img src={bigLogo} alt="my-ride-logo" width={125} />
                 <p className="text-[#B3B3B3] font-normal text-[16px] leading-2xl">MyRide Inc., 2nd Floor, New York, NY 10016</p>
                 <div className="flex gap-5">
                     <FacebookOutlined fontSize="large" />
@@ -14,7 +14,7 @@ const Footer = () => {
                     <Twitter fontSize="large" />
                 </div>
             </div>
-            <div className="w-[865px] flex gap-10 justify-start">
+            <div className="lg:w-[865px] md:w-full flex gap-5 lg:justify-start justify-center md:gap-20 ">
                 {
                     footerData.map((item) => (
                         <ul key={item.id}>
