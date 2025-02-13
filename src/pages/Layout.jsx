@@ -4,15 +4,15 @@ import Footer from '../components/footer/Footer'
 
 const Layout = () => {
     return (
-        <div className='w-[100vw] block relative '>
-            <header className='h-[10vh] overflow-visible'>
+        <>
+            <header className='relative'>
                 <Navbar />
             </header>
-            <main>
+            <main className='min-h-screen'>
                 <Outlet />
             </main>
             <Footer />
-        </div>
+        </>
     )
 }
 
