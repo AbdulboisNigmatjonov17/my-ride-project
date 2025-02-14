@@ -3,7 +3,7 @@ import AppStore from '../../../assets/AppStore.png'
 import mobileBannerImg from '../../../assets/MobileBannerImage.png'
 const MainBanner = () => {
     return (
-        <div className='!mt-[10dvh] Container grid lg:justify-between lg:grid-cols-2 grid-cols-1 justify-center items-center lg:gap-0 gap-5 lg:p-0 px-10 flex-wrap-reverse'>
+        <div className='!mt-[10dvh] Container grid lg:justify-between lg:grid-cols-2 grid-cols-1 justify-center items-center lg:gap-0 gap-5 lg:p-0 px-10'>
             <div className='lg:w-[500px] w-full flex items-center'>
                 <div className='w-full flex flex-col gap-8 items-start'>
                     <div>
