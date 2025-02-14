@@ -11,7 +11,7 @@ const BookingSection = () => {
         }
     };
     return (
-        <div className='Container grid grid-cols-1 lg:grid-cols-2 justify-between items-center'>
+        <div className='Container grid grid-cols-1 lg:grid-cols-2 justify-between items-center !mt-[10dvh]'>
             <div className='w-full flex justify-center p-10'>
                 <img src={taxiBooking} alt="taxi-booking" className='lg:w-[600px]' />
             </div>

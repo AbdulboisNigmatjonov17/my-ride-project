@@ -7,7 +7,7 @@ import { Drawer, IconButton, List, ListItem, ListItemText } from "@mui/material"
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <nav className="px-10 w-full h-[10vh] flex justify-between items-center shadow-md sticky top-0 z-[1200] bg-[#242424]">
+        <nav className="px-10 w-full h-[10vh] flex justify-between items-center shadow-md fixed top-0 z-[1200] bg-[#242424]">
             <Link to={"/"}>
                 <img src={Logo} alt="my-ride-logo" />
             </Link>
